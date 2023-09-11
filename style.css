@@ -16,6 +16,7 @@
     z-index: -99999;
     position: static;
     transition: all ease-in 1s;
+    background-attachment: fixed;
 }
 
 .nav {
@@ -90,13 +91,13 @@
     object-fit: cover;
     border-radius: 20px;
     transition: all ease .4s;
-    filter: brightness(50%);
-    transition: all ease-in  1s;
+    /* filter: brightness(50%);
+    transition: all ease-in  1s; */
 }
-.r2 img:hover{
+/* .r2 img:hover{
     filter: brightness(150%);
     transition: all ease-in 1s;
-}
+} */
 
 .c a {
     color: white;
@@ -219,12 +220,6 @@
     object-fit: cover;
     border-radius: 20px;
     transition: all ease .4s;
-    filter: brightness(50%);
-    transition: all ease-in  1s;
-}
-.s1 img:hover{
-    filter: brightness(150%);
-    transition: all ease-in 1s;
 }
 .s2 {
     width: 1000px;
