@@ -18,7 +18,6 @@
     position: static;
     transition: all ease-in 1s;
     background-attachment: fixed;
-    backface-visibility: hidden;
 }
 
 .nav {
